@@ -1,1 +1,134 @@
 /* css */
+body {
+    margin:20px;
+    padding:0px;
+    background-image:url("http://img.freecodesource.com/twitter-backgrounds/images/bg/L295379497.jpg");
+    background-size:1375px;
+
+}
+
+/*This Sets the Backgound Color to Gray*/
+#header{
+    background-color:gray;
+    padding:0px;
+    color:white;
+    margin:20px;
+    margin-top:;
+}
+h1{
+    padding:20px 40px 20px 40px;
+    margin:20px;
+}
+/*NAVIGATION*/
+#nav, #nav a{
+    background-color:#ccc;
+    padding:10px;
+    
+}
+
+#nav a{
+    margin:0px;
+    color:black;
+    font-family:arial;
+    text-decoration:none;
+    transition:background-color 2s, color 2s;/*this transitions the color from #ccc to the same*/ 
+}
+
+#nav a:hover{
+    background-color:#aaaaff;
+    color:white;
+    transition:color 2s;
+}
+/*END NAVIGATION*/
+
+#content{
+    padding:20px 40px 20px 40px;
+    margin:20px;
+    background-color:#eee;
+    margin-top:-20px;
+}
+h2, h3{
+    font-family:arial;
+}
+
+#footer{
+    padding:20px 40px 20px 40px;
+    margin:20px;
+    background-color:black;
+    color:white;
+    margin-top:-20px;
+    text-decoration:none;
+}
+#list{
+    padding:20px 40px 20px 40px;
+    background-color:pink;
+    margin:20px;
+}
+#page{
+    padding:20px 40px 20px 40px;
+    
+}
+
+.spotlight {
+    background-color:pink;
+    padding:20px;
+}
+/* OLD css */
+/*#header{
+    padding:20px;
+    width:400px;
+    background-color:gray;
+    color:black;
+    
+}
+
+#header:hover{
+    background-color:red;
+    width:300px;
+    color:white;
+    transition: width 4s, background-color 4s, color 1.5s;
+}
+
+#content{
+    padding:20px;
+    background-color:red;
+    color:black;
+    width:400px;
+}
+#content:hover{
+    background-color:white;
+    width:300px;
+    color:maroon;
+    transition: width 4s, background-color 4s, color 1.5s;
+}
+
+
+#footer{
+    padding:20px;
+    background-color:black;
+    color:white;
+    width:400px;
+}
+#footer:hover{
+    background-color:gray;
+    width:300px;
+    color:red;
+    transition: width 4s, background-color 4s, color 1.5s;
+}
+#header h2 {
+    background-color:white;
+    color:black;
+    padding:9px;
+    font-size:16px;
+}
+
+#header h2:hover{
+    background-color:gray;
+    color:crimson;
+    padding:9px;
+    font-size:30px;
+    
+    transition: background-color 5s, color 3s, font 3s;
+}
+*/
+
